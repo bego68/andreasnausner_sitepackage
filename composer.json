@@ -1,0 +1,21 @@
+{
+    "name": "hubertus-golf-it-service-und-beratung/andreas-nausner",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "homepage": "https://www.hubertus-golf.de/",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "bk2k/bootstrap-package": "^15.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HubertusGolfItServiceUndBeratung\\AndreasNausner\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "andreas_nausner"
+        }
+    }
+}
