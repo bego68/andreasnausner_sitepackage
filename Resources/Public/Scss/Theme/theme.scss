@@ -1,9 +1,35 @@
 //
-// Variables
+// import variables
 //
-@import "variables";
-
+//@import "Variables";
+	
 //
 // Import needed Bootstrap Package Files
 //
 @import "EXT:bootstrap_package/Resources/Public/Scss/bootstrap5/theme";
+
+
+:root {
+	--cardpanel-header-background: #207695;
+    --bs-white-rgb: 0, 84, 55;
+}
+
+.navbar {
+    .navbar-brand {
+        .title {
+            display: inline-block;
+            padding: 7px 20px;
+            color: rgb(255, 241, 122);
+        }
+    }
+}
+
+.footer-section-meta{
+	background-color: rgb(0, 84, 55);
+	--frame-link-color: rgb(255, 241, 122);
+}
+
+.navbar-nav{
+	--bs-nav-link-color: rgb(255, 241, 122);
+	--bs-nav-link-hover-color: red;
+}
